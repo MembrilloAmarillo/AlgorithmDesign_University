@@ -55,5 +55,6 @@ main( void )
 {
   Small_Vector<ConjuntoMoneda, 6> Monedas( {{5, 50}, {4, 20}, {7, 10}, {5, 5}, {3, 1}, {10, 2}} );
   CambioMonedas( Monedas, 89 );
+
   return 0;
 }

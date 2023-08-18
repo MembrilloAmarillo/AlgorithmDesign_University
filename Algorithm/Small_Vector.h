@@ -67,4 +67,4 @@ private:
   T smallvector[N];
 };
 
-#endif _SMALL_VECTOR_H_
+#endif // _SMALL_VECTOR_H_
