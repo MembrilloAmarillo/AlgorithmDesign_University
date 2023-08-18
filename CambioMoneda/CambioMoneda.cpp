@@ -1,5 +1,7 @@
 #include <cstdio>
 
+#include "Small_Vector.h"
+
 struct ConjuntoMoneda {
   uint32_t cantidad;
   uint32_t valor;
