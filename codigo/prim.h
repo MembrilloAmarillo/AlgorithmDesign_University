@@ -35,5 +35,7 @@ prim( const Small_Vector<Small_Vector<uint32_t, N>, N>& Pesos, size_t n )
 	    }
 	}
     }
+
+  return Solucion;
 }
 #endif // _PRIM_H_
