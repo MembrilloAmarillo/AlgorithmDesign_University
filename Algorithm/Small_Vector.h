@@ -24,8 +24,8 @@ public:
     memcpy( smallvector, V.smallvector, v_end );
   }
     
-  using iterator =  T*;
-  using const_iterator = const T*;
+  typedef T* iterator;
+  typedef T const* const_iterator;
     
   T* data() const { return smallvector; }
   std::vector<T> to_std_vec() const { return std::vector<T>( smallvector, smallvector + v_end ); }
