@@ -8,6 +8,7 @@
 
 template <typename T, size_t N> class Small_Vector {
     public:
+
     Small_Vector( size_t end = 0 ) : v_end( end ) {}
     
     Small_Vector( std::initializer_list<T> IL ) : v_end( N )
@@ -17,7 +18,7 @@ template <typename T, size_t N> class Small_Vector {
             smallvector[i] = *( IL.begin() + i );
         }
     }
-    
+
     Small_Vector( const Small_Vector<T, N>& V ) : 
     v_end  ( V.v_end )
     {
